@@ -2,7 +2,11 @@
 
 
 ### Introduction
-This is a PyTorch(0.4.1) implementation of [Deep Ordinal Regression Network for Monocular Depth Estimation](http://arxiv.org/abs/1806.02446). At present, we can provide train script in NYU Depth V2 dataset and Kitti Dataset!
+This is a PyTorch(0.4.1) implementation of [Deep Ordinal Regression Network for Monocular Depth Estimation](http://arxiv.org/abs/1806.02446). 
+
+Notice: And the parent git repo is [@dontLoveBugs](https://github.com/dontLoveBugs/DORN_pytorch), adapt to my need
+
+At present, we can provide train script in NYU Depth V2 dataset and Kitti Dataset!
 
 Note: we modify the ordinal layer using matrix operation, making trianing faster.
 
